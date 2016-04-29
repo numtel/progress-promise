@@ -1,4 +1,4 @@
-# progress-promise [![Build Status](https://travis-ci.org/numtel/progress-promise.svg?branch=master)](https://travis-ci.org/numtel/progress-promise)
+# progress-promise [![Build Status](https://travis-ci.org/numtel/progress-promise.svg?branch=master)](https://travis-ci.org/numtel/progress-promise) [![npm version](https://badge.fury.io/js/progress-promise.svg)](https://www.npmjs.com/package/progress-promise)
 
 Promise subclass with mechanism to report progress before resolving
 
