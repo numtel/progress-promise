@@ -1,0 +1,17 @@
+{
+  "name": "progress-promise",
+  "version": "0.0.1",
+  "description": "Promise subclass with mechanism to report progress before resolving",
+  "main": "index.js",
+  "repository": "numtel/progress-promise",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "promise",
+    "subclass",
+    "progress"
+  ],
+  "author": "numtel <ben@latenightsketches.com>",
+  "license": "MIT"
+}
