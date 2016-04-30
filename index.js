@@ -36,7 +36,7 @@ class ProgressPromise extends Promise {
     });
   }
   static sequence(inputs, handler) {
-    const results = arguments[2] || [];
+    const results = [];
     const length = inputs.length;
     let resolveCount = 0;
     return new ProgressPromise((resolve, reject, progress) => {
