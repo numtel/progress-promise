@@ -49,8 +49,8 @@ Promise.all([
         .then(() => assert(false, 'Succeeded Erroneously'))
         .catch(() => assert(false, 'Succeeded Erroneously'));
     } catch(error) {
-      assert.strictEqual(error.name, 'AssertionError');
-      assert.strictEqual(error.actual, 'undefined');
+      assert.strictEqual(error.name, 'Error');
+      assert.strictEqual(error.message, 'PROGRESS_REQUIRES_FUNCTION');
     }
   })(),
   (function all() {

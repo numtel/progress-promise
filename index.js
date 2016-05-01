@@ -1,5 +1,4 @@
 'use strict';
-const assert = require('assert');
 const LISTENERS = Symbol();
 
 class ProgressPromise extends Promise {
@@ -16,7 +15,8 @@ class ProgressPromise extends Promise {
     this[LISTENERS] = [];
   }
   progress(handler) {
-    assert.strictEqual(typeof handler, 'function');
+    if(typeof handler !== 'function')
+      throw new Error('PROGRESS_REQUIRES_FUNCTION');
     this[LISTENERS].push(handler);
     return this;
   }
