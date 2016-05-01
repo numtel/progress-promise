@@ -1,6 +1,6 @@
 {
   "name": "progress-promise",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Promise subclass with mechanism to report progress before resolving",
   "main": "index.js",
   "repository": "numtel/progress-promise",

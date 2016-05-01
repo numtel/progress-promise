@@ -96,7 +96,7 @@ If a normal (not arrow) function is used here, `this` cannot be accessed before 
 
 ### Symbols as private properties
 
-The new ES6 `Symbol()` type creates a non-enumerating value that can be used as a key on an object. Creating a key on an object instance with a Symbol can be similar to creating a private property if the Symbol is not shared.
+The new ES6 `Symbol()` type creates a non-enumerating value that can be used as a key on an object. Creating a key on an object instance with a Symbol can be similar to creating a private property if the Symbol is not shared. If Symbols are not available, a fallback string property key is used.
 
 
 ## License

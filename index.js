@@ -1,5 +1,6 @@
 'use strict';
-const LISTENERS = Symbol();
+// Fallback for engines that don't support Symbol
+const LISTENERS = Symbol ? Symbol() : '__listeners';
 
 class ProgressPromise extends Promise {
   constructor(executor) {
