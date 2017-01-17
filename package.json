@@ -13,5 +13,8 @@
     "progress"
   ],
   "author": "numtel <ben@latenightsketches.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "browserify": {
+    "transform": ["babelify"]
+  }
 }
